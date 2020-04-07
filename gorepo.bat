@@ -1,1 +1,1 @@
-@powershell .\gorepo.ps1 %*
+@powershell %~dp0\gorepo.ps1 %*
