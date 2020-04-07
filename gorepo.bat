@@ -1,0 +1,1 @@
+@powershell .\gorepo.ps1 %*

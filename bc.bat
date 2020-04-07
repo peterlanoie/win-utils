@@ -1,0 +1,1 @@
+@start "Beyond Compare" "C:\Program Files (x86)\Beyond Compare 3\bcompare.exe" %*
