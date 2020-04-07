@@ -7,9 +7,9 @@ Write-Host "Getting Git origin remote URL..."
 
 $remoteUrl = (git remote get-url $remoteName)
 
-if ($remoteUrl -ne $null) {
+if ($null -ne $remoteUrl) {
 	Write-Host "Launching '$remoteUrl'"
-#	Start-Process $remoteUrl
+	Start-Process $remoteUrl
 } else {
 	Write-Host "!! Local folder doesn't appear to be in a Git repo or the remote name is bad. !!"
 	Write-Host "Call this from a Git repo working folder."
