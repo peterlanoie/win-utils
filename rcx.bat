@@ -1,1 +1,1 @@
-@powershell D:\Utils\utl-powershell\RemoteConsole.ps1 %*
+@powershell D:\Utils\utl-powershell\RemoteConsole\RemoteConsole.ps1 %*
