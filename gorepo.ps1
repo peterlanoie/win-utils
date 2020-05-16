@@ -2,7 +2,7 @@
 param (
 	[Parameter()][string]$remoteName = "origin"
 )
-
+Write-Host "Go go Gadget repo!"
 Write-Host "Getting Git origin remote URL..."
 
 $remoteUrl = (git remote get-url $remoteName)
