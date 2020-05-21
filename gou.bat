@@ -1,3 +1,3 @@
 @echo off
-cd C:\Utilities
+cd %~dp0
 C:
