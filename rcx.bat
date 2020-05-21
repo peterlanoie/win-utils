@@ -1,1 +1,4 @@
-@powershell D:\Utils\utl-powershell\RemoteConsole\RemoteConsole.ps1 %*
+@echo off
+cd D:\DevOps\utl-powershell\RemoteConsole
+D:
+powershell
