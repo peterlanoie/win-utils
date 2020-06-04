@@ -1,3 +1,3 @@
 @echo off
-cd %~dp0
+pushd %~dp0
 C:
