@@ -1,1 +1,1 @@
-@git log --oneline --decorate *%
+@gls.bat %*
