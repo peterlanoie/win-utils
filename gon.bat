@@ -1,3 +1,3 @@
 @echo off
-D:
-cd D:\Notes
+W:
+pushd W:\DropBox\Notes
