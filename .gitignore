@@ -1,13 +1,3 @@
-# Applications
-
-SQLiteDatabaseBrowserPortable/
-SysInternals/
-PuTTY/
-basex/
-sr/
-LinqPad/
-BC3/
-
 # Executables
 *.exe
 *.rdp
