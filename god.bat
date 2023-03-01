@@ -1,3 +1,3 @@
 @echo off
-cd D:\Dev
-D:
+cd N:\Dev
+N:
