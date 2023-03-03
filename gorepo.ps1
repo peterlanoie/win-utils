@@ -7,6 +7,12 @@ Write-Host "Getting Git origin remote URL..."
 
 $remoteUrl = (git remote get-url $remoteName)
 
+if ($remoteUrl.Contains("git@")){
+	$remoteUrl = $remoteUrl.Replace(":", "/")
+	$remoteUrl = $remoteUrl.Replace(".git", "")
+	$remoteUrl = $remoteUrl.Replace("git@", "https://")
+}
+
 if ($null -ne $remoteUrl) {
 	Write-Host "Launching '$remoteUrl'"
 	Start-Process $remoteUrl
